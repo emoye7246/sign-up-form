@@ -6,3 +6,22 @@ background-image: url('../images/hi.png');
 background-size: cover;  
 background-repeat: no-repeat;
 }
+
+.odin {
+    display: flex;
+    border: 1px black;
+    height: 100px;
+    width: 25vw;
+    top: 150px;
+    justify-content: center;
+    gap: 20px;
+    font-size: 100px;
+    /* Oh sHIT  */
+}
+
+p {
+    color: white;
+    position: absolute;
+    justify-content: center;
+
+}
