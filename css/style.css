@@ -1,27 +1,74 @@
+@font-face {
+    font-family: norse;
+    src: url(../images/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(234, 233, 233);
+}
+
 .logo {
-border: 1px solid black;
+display: flex;
+border: 1px black;
 height: 100vh;
-width: 25vw;
+width: 35vw;
 background-image: url('../images/hi.png');  
 background-size: cover;  
 background-repeat: no-repeat;
 }
 
+.transparent {
+    display: flex;
+    border: 1px black;
+    height: 150px;
+    width: 35vw;
+    top: 248px;
+    position: absolute;
+    background-color: black;
+    opacity: .3;
+}
+
+/* log0 */
 .odin {
     display: flex;
     border: 1px black;
     height: 100px;
-    width: 25vw;
-    top: 150px;
-    justify-content: center;
+    width: 35vw;
+    top: 175px;
     gap: 20px;
     font-size: 100px;
-    /* Oh sHIT  */
-}
-
-p {
-    color: white;
+    color: rgb(255, 255, 255);
     position: absolute;
     justify-content: center;
-
+    background-size: cover;
+    font-family: norse, sans-serif;
+    
+    /* Oh sHIT tomorrow start with the fonts  */
+    /* Good shit */
 }
+
+.right {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(234, 233, 233);
+    margin-top: 150px;
+}
+
+.heading , .form {
+    margin: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+  
+    
+}
+
+.form {
+    background-color: whitesmoke;
+}
+
