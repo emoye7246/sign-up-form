@@ -5,6 +5,7 @@
 
 body {
     display: flex;
+    /* flex-wrap: nowrap; */
     margin: 0;
     height: 100vh;
     width: 100vw;
@@ -50,7 +51,7 @@ background-repeat: no-repeat;
     /* Oh sHIT tomorrow start with the fonts  */
     /* Good shit */
 }
-
+/* logo finshished here */
 .right {
     width: 65vw;
     display: flex;
@@ -64,11 +65,36 @@ background-repeat: no-repeat;
     margin-left: 0;
     margin-right: 0;
     padding: 10px;
-  
-    
 }
 
 .form {
     background-color: whitesmoke;
+    font-size: large;
 }
+
+input, label {
+
+    display: block;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    color: rgb(52, 52, 52);
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 5px;
+    display: flex;
+    width: 250px;
+    height: 25px;
+}
+
+
+
+/* li {
+    list-style-type: none;
+} */
 
