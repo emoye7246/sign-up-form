@@ -60,16 +60,19 @@ background-repeat: no-repeat;
     margin-top: 150px;
 }
 
-.heading , .form {
+.heading , .form, .final {
     margin: 25px;
     margin-left: 0;
     margin-right: 0;
     padding: 10px;
+    font-size: large;
+    font-family: sans-serif;
 }
 
 .form {
     background-color: whitesmoke;
     font-size: large;
+    box-shadow: 2px 2px 2px rgb(188, 188, 188);
 }
 
 input, label {
@@ -82,6 +85,7 @@ input, label {
 
 label {
     margin-bottom: 5px;
+    font-family: sans-serif;
 }
 
 input {
@@ -92,9 +96,67 @@ input {
     height: 25px;
 }
 
+/* Info section completed */
+
+.final > button {
+
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+
+button:hover {
+
+    cursor: pointer;
+}
 
 
-/* li {
-    list-style-type: none;
+.final > p {
+
+    font-size: small;
+}
+
+.final > p > a {
+
+    text-decoration: none; 
+    color: green;
+}
+
+.final {
+
+    margin-top: 0px;
+}
+
+/* input:focus {
+
+    box-shadow: 0 0 5px 1px blue;
 } */
+
+/* For assignments purposes well enable it but i dont like it */
+
+input[type="password"]:invalid {
+
+    border: 1px solid red;
+}
+
+input[type="password"]:valid {
+
+    border: 1px solid green;
+}
+
+
+
+input[type="confirm-password"]:invalid {
+
+    border: 1px solid red;
+}
+
+input[type="confirm-password"]:valid {
+
+    border: 1px solid green;
+}
 

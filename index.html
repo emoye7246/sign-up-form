@@ -23,7 +23,7 @@
                
                <p> You know you want to.</p>
         </div>
-
+        <!-- Form section starts -->
         <div class="form">
             <p>Lets do this !</p>
             <div class="info">
@@ -52,24 +52,31 @@
                     </div>
 
                     <div style="float: left;">
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password" required>
+                        <label for="password">*Password</label>
+                        <input type="password" name="password" id="password" required minlength="8" maxlength="10">
+                        <p class="message"></p>
                     </div>
 
                     <div>
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" name="confirm-password" id="confirm-password" required>
+                        <label for="confirm-password">*Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required minlength="8" maxlength="10">
                     </div>
-
-                    <button>Submit</button>
                 </section>
-                </form>
+                <!-- form section completed -->
             </div>
+            
         </div>
 
+            <div class="final">
+                <button>Create Account</button>
+                <p>
+                    Already have an account? <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Log in</a> 
+                </p>
+            </form>
+            </div>
     </div>
 
 
-
+<script src="./java.js" defer></script>
 </body>
 </html>
